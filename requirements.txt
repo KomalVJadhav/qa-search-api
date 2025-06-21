@@ -1,5 +1,5 @@
 fastapi
-farm-haystack[all]
+farm-haystack[preprocessing,opensearch,inference]
 stanza
 uvicorn
 pydantic
