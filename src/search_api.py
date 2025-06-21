@@ -115,3 +115,7 @@ def search(request: QueryRequest):
         "query_type": query_type,
         "best_document": top_doc.content if top_doc else None
     }
+
+@app.get("/")
+def root():
+    return {"message": "QA Search API is running"}
