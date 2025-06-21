@@ -1,0 +1,9 @@
+fastapi
+farm-haystack[all]
+stanza
+uvicorn
+pydantic
+opensearch-py
+scikit-learn
+sentence-transformers
+transformers
